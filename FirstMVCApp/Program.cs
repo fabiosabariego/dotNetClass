@@ -28,7 +28,7 @@ namespace FirstMVCApp
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=HelloWorld}/{action=Index}/{id?}");
 
             app.Run();
         }
