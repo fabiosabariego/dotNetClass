@@ -5,10 +5,12 @@ namespace FirstMVCApp.Controllers
 {
     public class HelloWorldController : Controller
     {
+        private static List<DogViewModel> dogs = new List<DogViewModel>();
+
         public IActionResult Index()
         {
-            DogViewModel doggo = new DogViewModel() { Name = "Sif", Age = 3 };
-            return View(doggo);
+            //DogViewModel doggo = new DogViewModel() { Name = "Sif", Age = 3 };
+            return View(dogs);
         }
 
         public IActionResult Hello()
@@ -19,13 +21,18 @@ namespace FirstMVCApp.Controllers
 
         public IActionResult Create()
         {
-            var dogMV = new DogViewModel();
-            return View(dogMV);
+            //var dogMV = new DogViewModel();
+            //dogMV.Name = "Thor";
+            //dogMV.Age = 12;
+            //return View(dogMV);
+            return View();
         }
 
         public IActionResult CreateDog(DogViewModel dogViewModel)
         {
-            return View("Index");
+            //return View("Index");
+            dogs.Add(dogViewModel);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

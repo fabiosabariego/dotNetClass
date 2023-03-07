@@ -1,0 +1,20 @@
+﻿@model HotelViewModel
+
+<h1>Hotel Booking Page</h1>
+
+<ul class="list-group list-group-horizontal">
+    <li class="list-group-item flex-fill">Client ID</li>
+    <li class="list-group-item flex-fill">@Model.Id</li>
+</ul>
+<ul class="list-group list-group-horizontal">
+    <li class="list-group-item flex-fill">Client Name</li>
+    <li class="list-group-item flex-fill">@Model.GuestName</li>
+</ul>
+<ul class="list-group list-group-horizontal">
+    <li class="list-group-item flex-fill">Client Check-In</li>
+    <li class="list-group-item flex-fill">@Model.DateStart</li>
+</ul>
+<ul class="list-group list-group-horizontal">
+    <li class="list-group-item flex-fill">Client Check-Out</li>
+    <li class="list-group-item flex-fill">@Model.DateEnd</li>
+</ul>
