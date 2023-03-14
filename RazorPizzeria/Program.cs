@@ -1,3 +1,6 @@
+using RazorPizzeria.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace RazorPizzeria
 {
     public class Program
@@ -7,6 +10,14 @@ namespace RazorPizzeria
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            //Este Servico e responsabel por abrir a conexao com o Banco de Dados. A Connection String "DefaultConnection" foi criada no arquivo appsettings.json, na arvore do projeto
+            builder.Services.AddDbContext<ApplicationDBContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
+            //-------------------------------------------------------------------------------------------
+
             builder.Services.AddRazorPages();
 
             var app = builder.Build();
