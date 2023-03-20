@@ -1,0 +1,49 @@
+﻿@page "/converter";
+
+<h3>Converter</h3>
+<PageTitle>@title</PageTitle>
+
+<label>Kg</label>
+<input type="number" @bind-value="@Kilos" @bind-value:event="oninput" />
+<span> = </span>
+<input type="number" @bind-value="@Grams" @bind-value:event="oninput" />
+<label>g</label>
+
+
+@code {
+    private string title = "Converter Page";
+    private double _kilos = 1;
+    private double _grams = 1000;
+
+    //Criando a Propriedade para conversao em kilos
+    public double Kilos
+    {
+        get         // Ou tambem podemos escrever como:  get => _kilos;
+        {
+            return _kilos;
+        }
+
+        set
+        {
+            _grams = value * 1000;
+            _kilos = value;
+        }
+    }
+
+    //Criando a Propriedade para conversao em gramas
+    public double Grams
+    {
+        get
+        {
+            return _grams;
+        }
+        set
+        {
+            _grams = value;
+            _kilos = value / 1000;
+        }
+    }
+
+
+
+}

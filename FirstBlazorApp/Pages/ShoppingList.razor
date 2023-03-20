@@ -1,38 +1,65 @@
 ﻿@page "/shoppinglist"
 @using FirstBlazorApp.Data;
-
+<PageTitle>@title</PageTitle>
 
 <h3>Shopping List</h3>
 
-<input placeholder="Grocery Name" @bind="_groceryName" />
-<input placeholder="Grocery Price" @bind="_groceryPrice" />
-<button @onclick="AddGrocery">Add Grocery</button>
+<EditForm Model="@_grocery" OnSubmit="AddGrocery">
+    <DataAnnotationsValidator />
+        <ValidationSummary />
+    <p>
+        <label>
+            Name: <InputText @bind-Value="_grocery.Name" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Price: <InputNumber @bind-Value="_grocery.Price" />
+        </label>
+    </p>
+    <button type="submit">Add Grocery</button>
+</EditForm>
 
-<ul>
+<table class="table table-sm">
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th></th>
+    </tr>
     @foreach (var grocery in groceries)
     {
-        <li>@grocery.Name -- @grocery.Price</li>
+        <Item GroceryItem="@grocery" OnGroceryPriceIncreased="OnGroceryPriceIncreased"></Item>
     }
     
-</ul>
+</table>
 
-<h1>Total: (@groceries.Sum(grocery => grocery.Price))</h1>
+<h1>Total: (@sum)</h1>
 
 
 @code {
-    private string _groceryName;
+    private float sum = 0;
+    private string title = "Our Groceries";
+    private string _groceryName = "";
     private float _groceryPrice;
+    private Grocery _grocery = new Grocery();
 
     private List<Grocery> groceries = new List<Grocery>();
 
     private void AddGrocery()
     {
-        if (!string.IsNullOrWhiteSpace(_groceryName) && _groceryPrice > 0)
-        {
-            groceries.Add(new Grocery { Name = _groceryName, Price = _groceryPrice });
-        }
+        groceries.Add(_grocery);
+        _grocery = new Grocery(); // Esta forma carregara os campos para o Valor Default ou Inicial
 
-        _groceryName = string.Empty;
-        _groceryPrice = 0;
+        UpdateTotalAmount();
+    }
+
+    public void UpdateTotalAmount()
+    {
+        sum = groceries.Sum(total => total.Price);
+    }
+
+    public void OnGroceryPriceIncreased()
+    {
+        UpdateTotalAmount();
     }
 }
