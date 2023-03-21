@@ -1,0 +1,15 @@
+﻿.header{
+    grid-area: hd;
+    background-color: #227093;
+    color: white;
+    padding: 2%;
+}
+
+.footer{
+    grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    background-color: #227093;
+    color: white;
+    padding: 2%
+}
