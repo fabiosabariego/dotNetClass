@@ -819,3 +819,7 @@ C:\Users\Fabio\Documents\GitHub\dotNetClass\FirstBlazorApp\obj\Debug\net6.0\refi
 C:\Users\Fabio\Documents\GitHub\dotNetClass\FirstBlazorApp\obj\Debug\net6.0\FirstBlazorApp.pdb
 C:\Users\Fabio\Documents\GitHub\dotNetClass\FirstBlazorApp\obj\Debug\net6.0\ref\FirstBlazorApp.dll
 C:\Users\Fabio\Documents\GitHub\dotNetClass\FirstBlazorApp\obj\Debug\net6.0\scopedcss\Shared\ShoppingListLayout.razor.rz.scp.css
+C:\Users\Fabio\Documents\GitHub\dotNetClass\FirstBlazorApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\Fabio\Documents\GitHub\dotNetClass\FirstBlazorApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\Fabio\Documents\GitHub\dotNetClass\FirstBlazorApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Fabio\Documents\GitHub\dotNetClass\FirstBlazorApp\obj\Debug\net6.0\build-gz\OJXir9lD.gz

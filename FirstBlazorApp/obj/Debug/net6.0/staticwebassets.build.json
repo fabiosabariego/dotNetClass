@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9FRpG+jnCNWvd1byXMx2blz7n12mD/0kviCwK0c2roM=",
+  "Hash": "dUXzkhjDcG+XihY+Vnupe87oXnbbpyHTCDcv1ymTlB8=",
   "Source": "FirstBlazorApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -695,6 +695,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.14\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Fabio\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib\\net6.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -5676,6 +5693,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\obj\\Debug\\net6.0\\build-gz\\OJXir9lD.gz",
+      "SourceId": "FirstBlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\obj\\Debug\\net6.0\\build-gz\\OrFngUrL.gz",

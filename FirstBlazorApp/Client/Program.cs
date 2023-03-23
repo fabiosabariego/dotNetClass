@@ -12,7 +12,7 @@ namespace FirstBlazorApp
             builder.RootComponents.Add<App>("#app");
             builder.RootComponents.Add<HeadOutlet>("head::after");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://weatherdbi.herokuapp.com/data/weather/") });
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://api.hgbrasil.com/") });
 
             await builder.Build().RunAsync();
         }

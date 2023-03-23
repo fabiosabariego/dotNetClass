@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KdBpvDtBRJUeeOL4QCZ05+PUZKx9DLw3DrVaMLgfOMJaH0FEKTBbMiQ7pGO64GqBsfTaKUH13y+oDhsuGj9UXw==",
+  "dgSpecHash": "mItoxbykpx6FEMiH4slsJgCfpu94KtNbIazoZJL72849qpgeYJVIh89sK7irfrQy6A8kzk41y9nOogw8Id2arQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\FirstBlazorApp\\FirstBlazorApp.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,8 @@
     "C:\\Users\\Fabio\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\microsoft.jsinterop\\6.0.13\\microsoft.jsinterop.6.0.13.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.13\\microsoft.jsinterop.webassembly.6.0.13.nupkg.sha512",
+    "C:\\Users\\Fabio\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Fabio\\.nuget\\packages\\plotly\\1.5.1\\plotly.1.5.1.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

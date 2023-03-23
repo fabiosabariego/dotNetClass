@@ -52,6 +52,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Plotly": {
+              "target": "Package",
+              "version": "[1.5.1, )"
             }
           },
           "imports": [
