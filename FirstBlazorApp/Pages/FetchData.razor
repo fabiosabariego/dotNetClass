@@ -9,6 +9,7 @@
 
 <h4>Enter City</h4>
 <input type="text" @bind="@City"/>
+<button @onclick="GetWeatherForecast">Search</button>
 
 @if (forecasts == null)
 {
@@ -17,7 +18,7 @@
 else
 {
     //var today = DateTime.Today;
-    <h4>Today: @forecasts.Date</h4>
+    <h4>@City Today: @forecasts.Date</h4>
     <p>Temperature: @forecasts.Temp °C</p>
     <p>City: @forecasts.City</p>
     <p>Summary: @forecasts.Description</p>
@@ -52,7 +53,12 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast>("weather?key=365b9d79&city_name=Indaiatuba,SP");
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast>($"weather?key=365b9d79&city_name={City},SP");
+    }
+
+    private async Task GetWeatherForecast()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast>($"weather?key=365b9d79&city_name={City},SP");
     }
 
     public partial class WeatherForecast : Forecast
