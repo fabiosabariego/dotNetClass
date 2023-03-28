@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vQ63U+58gRgmAn5NVYYtCcbDQYTeaypaFDLqucR0Yww=",
+  "Hash": "04hoDcpo7ARVom2aXS54SlNyJaHQ59N7nkqZxD4CVPU=",
   "Source": "BlazorFileUpload",
   "BasePath": "_content/BlazorFileUpload",
   "Mode": "Default",
@@ -270,6 +270,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\images\\pdf_logo.png",
+      "SourceId": "BlazorFileUpload",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\",
+      "BasePath": "_content/BlazorFileUpload",
+      "RelativePath": "images/pdf_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pdf_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\uploads\\Test01.txt",
+      "SourceId": "BlazorFileUpload",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\",
+      "BasePath": "_content/BlazorFileUpload",
+      "RelativePath": "uploads/Test01.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Test01.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\uploads\\Test02.txt",
+      "SourceId": "BlazorFileUpload",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\",
+      "BasePath": "_content/BlazorFileUpload",
+      "RelativePath": "uploads/Test02.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Test02.txt"
     }
   ]
 }
