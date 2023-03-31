@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "04hoDcpo7ARVom2aXS54SlNyJaHQ59N7nkqZxD4CVPU=",
+  "Hash": "UFJqwqaRilyvaovYqY8Ldx6VDxLRDe/dziDi3IPEbVQ=",
   "Source": "BlazorFileUpload",
   "BasePath": "_content/BlazorFileUpload",
   "Mode": "Default",
@@ -287,6 +287,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\pdf_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\uploads\\im01.png",
+      "SourceId": "BlazorFileUpload",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\",
+      "BasePath": "_content/BlazorFileUpload",
+      "RelativePath": "uploads/im01.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\im01.png"
+    },
+    {
+      "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\uploads\\im02.png",
+      "SourceId": "BlazorFileUpload",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\",
+      "BasePath": "_content/BlazorFileUpload",
+      "RelativePath": "uploads/im02.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\im02.png"
     },
     {
       "Identity": "C:\\Users\\Fabio\\Documents\\GitHub\\dotNetClass\\BlazorFileUpload\\wwwroot\\uploads\\Test01.txt",
